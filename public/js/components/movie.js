@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const param = URLparam.get('movie')
 
     document.title = param
-    const baseURL = `http://www.omdbapi.com/?apikey=601322fb&type=movie&t=${param}&plot=full`
+    const baseURL = `https://www.omdbapi.com/?apikey=601322fb&type=movie&t=${param}&plot=full`
 
     fetch(baseURL)
         .then((response) => {
