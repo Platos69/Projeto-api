@@ -1,7 +1,7 @@
 // http://www.omdbapi.com/?apikey=601322fb
 // request: http://www.omdbapi.com/?apikey=601322fb&type=movie
 
-baseURL = `http://www.omdbapi.com/?apikey=601322fb&type=movie`
+baseURL = `https://www.omdbapi.com/?apikey=601322fb&type=movie`
 
 const searchBox = document.getElementById('searchBox')
 const resultsListContainer = document.querySelector('.results-list-movies')
